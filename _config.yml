@@ -1,0 +1,10 @@
+name: "cdosborn's home"
+description: "This is where I regurgitate my meanderings throughout the day"
+
+url: "http://cdosborn.com"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+pygments: true

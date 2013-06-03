@@ -1,0 +1,6 @@
+about page
+
+date align on index
+
+vim:
+    suggest the search its so useful!
