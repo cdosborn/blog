@@ -139,6 +139,7 @@ path {
     border-bottom-right-radius: 2em;
     opacity:1.0;
     transition: opacity .5s;
+    -webkit-transition: opacity .5s;
     /*   border: 1px solid;
          border-top: 0px;
          box-shadow: 0em 0em 0.4em; 
