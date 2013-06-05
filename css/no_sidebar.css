@@ -1,0 +1,10 @@
+div.content, #quote {
+    margin-left: 0em;
+    margin-right: 0em;
+    transition:margin 0s linear .1s;
+}
+
+#sidebar {
+    opacity: 0.0;
+    transition: opacity .3s;
+}
