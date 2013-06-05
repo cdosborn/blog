@@ -53,10 +53,13 @@ blockquote {
 
 div.content {
     position:relative;
-    margin-left: 9em;
     padding-right: 5%;
     padding-left: 5%;
     font-weight:300;
+}
+
+.sidebar {
+    margin-left: 9em;
 }
 
 .clickable {
@@ -228,11 +231,8 @@ pre[title]:after {
 #main {
     height:100%;
     position:relative;
-    margin: auto;
+    margin: 2em; 
     max-width: 55em;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 2em; 
 }
 
 intro #profile {
