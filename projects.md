@@ -1,6 +1,4 @@
 ---
-layout: home 
+layout: quote
 ---
-<div class="content">
 Soon to be updated...
-</div>
