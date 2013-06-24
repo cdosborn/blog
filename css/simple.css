@@ -39,12 +39,19 @@ span.note {
 
 h1, h2, h3{
     font-weight:400;
+    margin: 0.3em;
+    margin-left: 0;
+    margin-right: 0;
+    color: inherit; 
 }
 
-blockquote {
-    border-left: .2em solid #8F8AE6;
-    padding-left: 0.7em;
-    margin-left: 0em;
+blockquote p, strong {
+   /*border-left: .2em solid #8F8AE6;
+     padding-left: 0.7em;
+     margin-left: 0em; */
+    color:#444;
+    font-weight:400;
+    margin:0;
 }
 
 .color {
@@ -73,7 +80,6 @@ div.content {
 
 div.content > span, #time {
     font-weight:200;
-    padding-right:1em;
     font-size:1.5em;
 }
 
@@ -151,6 +157,7 @@ path {
     border-radius: 50%;
     margin-bottom:.5em;
     margin-right: .5em;
+    float:none;
 }
 
 #sidebar a {
@@ -163,7 +170,7 @@ path {
 
 #collapse {
     top:8.5em;
-    padding-left: 1em;
+    padding-left: 1.5em;
 }
 
 code {
@@ -230,8 +237,10 @@ pre[title]:after {
 #main {
     height:100%;
     position:relative;
-    margin: 2em; 
-    max-width: 55em;
+    margin: auto; 
+    padding-left: 1em;
+    margin-top: 2em;
+    max-width: 44em;
 }
 
 intro #profile {

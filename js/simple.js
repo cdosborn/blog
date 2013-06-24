@@ -14,6 +14,17 @@ $(document).ready(function() {
            $(this).text("o");
         } 
     });
+
+    $("#sidebar span").click(function() {
+        if ($(this).text() == "more") {
+            $(this).hide();
+            $(".b").css({"opacity":"1.0"}).show();
+        } else {
+            $(".b").css({"opacity":"0.0"}).hide();
+            $(".a").show();
+        }
+    });
+
       
     // google analytics
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
