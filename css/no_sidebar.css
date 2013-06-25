@@ -1,6 +1,5 @@
-div.content, #quote {
+#content {
     margin-left: 0em;
-    margin-right: 0em;
     transition:margin 0s linear .1s;
     -moz-transition-property: margin 0s linear .1s;
     -webkit-transition-property: margin 0s linear .1s;

@@ -11,6 +11,10 @@ html {
     background:#D6D6D6;
 }
 
+h1, h2, h3 {
+    font-size: 1.5em;
+}
+
 body {
     margin:0px;
     font-size:110%;
@@ -20,7 +24,10 @@ img {
     margin:auto;
     width:inherit;
 }
-
+p {
+    margin-top:.5em;
+    margin-bottom:.5em;
+}
 
 kbd {
     white-space: nowrap;
@@ -37,7 +44,7 @@ span.note {
     word-spacing:.1em;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
     font-weight:400;
     margin: 0.3em;
     margin-left: 0;
@@ -58,12 +65,12 @@ blockquote p, strong {
     color:#6F6AC6;
 }
 
-#header {
+#header h1{
     float:left;
+    margin-bottom:0em;
 }
 
 div.content {
-    position:relative;
     font-weight:300;
 }
 
@@ -76,16 +83,11 @@ div.content {
     left:3em;
 }
 
-div.content > span, #time {
-    font-weight:200;
-    font-size:1.5em;
-    color:#999
-}
-
 #time {
+    font-weight:300;
     padding-left: 1em;
-    padding-top: 0.2em;
-    font-size: 75%;
+    font-size:80%;
+    color:#999;
 }
 
 h2.close.clickable~*:not(h2) {
@@ -97,12 +99,6 @@ h2.close.clickable~*:not(h2) {
 a, h2 span {
     font-weight:400;
     color:#8F8AE6;
-    text-decoration:none;
-}
-
-a:hover
-{
-    color:#6F6AC6;
 }
 
 a.index {
@@ -114,6 +110,7 @@ div hr {
     border-top-width:4px;
     border-right:0px;
     border-left:0px;
+    margin:0em;
 }
 
 p {
@@ -130,8 +127,6 @@ path {
 #sidebar {
     height:100%;
     position:fixed;
-    border-bottom-left-radius: 2em;
-    border-bottom-right-radius: 2em;
     opacity:1.0;
     transition: opacity .5s;
     -moz-transition-property: opacity .5s;
@@ -139,16 +134,19 @@ path {
     -o-transition-property: opacity .5s;
 }
 
-#sidebar ul {
+ul {
     list-style-type: none;
     margin:0em;
     padding:0em;
-    line-height: 1.3em;
     font-size:1em;
 }
 
-#sidebar ul li:hover a {
+li:hover a, a:hover  {
     color:black;
+}
+
+li a: {
+    color:#444;
 }
 
 
@@ -163,8 +161,7 @@ path {
     float:none;
 }
 
-#sidebar a {
-    padding-left:0.5em;
+a {
     bottom:.5em;
     color:#444;
     font-weight:300;
@@ -215,14 +212,37 @@ pre[title]:after {
     float:left;
 }
 
+#back {
+    position:absolute;
+    top:.3em;
+    left:3.5em;
+    height:0em;
+}
+
 #main {
     height:100%;
     position:relative;
-    margin: auto; 
-    margin-top: 2em;
+    margin-top: 0em;
+}
+
+#container {
+    padding:2em;
+    margin:auto;
     max-width: 30em;
-    padding-left:2em;
-    padding-right:2em;
+}
+
+#start {
+    margin:auto;
+    max-width: 20em;
+    margin-top:15em;
+}
+
+#list {
+    padding-left:4em;
+}
+
+#list * {
+    text-decoration:none;
 }
 
 #quote {
