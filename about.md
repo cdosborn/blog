@@ -1,7 +1,19 @@
 ---
-title: about
+title: me
 layout: page
 ---
-<img style="width:265px;" src="/images/profile.jpg">
+A weblog written by Connor Osborn. I began with the hope of purporting change and well-being into the world through expression of my thoughts, in turn realizing *this* is all for my self. If any being out there is evaluating the bits of *this* please contact me at cdosborn[at]uw.edu. Oh and a [photo](/images/profile.jpg) for the ladies.
 
-My name is Connor. I started wearing glasses when I could no longer read the board in class. Do people just become near-sighted? I'm not nearly as grim as this serious photo portrays, contact me at cdosborn[at]uw.edu.
+<!--  
+---
+*stream* is a part of the site for undeveloped thoughts. Inspired by Henry Precheur's [blog](http://henry.precheur.org/)
+
+*posts* &emsp; consequently are the thoughts I spend time revising/passing through friend filters/etc.
+
+*this*<sup><a href="#foot1">1</a></sup> &emsp;  is a part of the site where I discuss myself and parts of this site (I just had to).
+
+---
+<a name="foot1"></a>
+
+1. A reference to the current page, opposed to the weblog
+-->

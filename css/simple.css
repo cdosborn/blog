@@ -135,11 +135,27 @@ ul {
     font-size:1em;
 }
 
+ol {
+    font-weight:300;
+    font-size:80%;
+
+}
+
+sup a {
+    font-size:80%;
+}
+
+sup {
+    padding-left:.3em;
+    padding-right:.3em;
+}
+
 li:hover a, a:hover  {
     color:black;
 }
 
-li a: {
+li {
+
     color:#444;
 }
 
@@ -210,8 +226,8 @@ pre[title]:after {
 
 #container {
     padding:2em;
-    margin:auto;
-    max-width: 30em;
+    margin-left:30%;
+    margin-right:30%;
 }
 
 #start, #post {
@@ -221,10 +237,6 @@ pre[title]:after {
     -moz-animation: fadein 2s; /* Firefox */
     -webkit-animation: fadein 2s; /* Safari and Chrome */
     -o-animation: fadein 2s; /* Opera */
-}
-
-#start {
-    max-width:15em;
 }
 
 @keyframes fadein {
@@ -261,11 +273,6 @@ pre[title]:after {
     to {
         opacity: 1;
     }
-}
-
-#nav {
-    margin:auto;
-    max-width: 15em;
 }
 
 #list * {
