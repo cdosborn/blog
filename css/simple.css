@@ -1,6 +1,7 @@
 * {
    /*  font-family:'IM Fell Double Pica', serif;*/
-   font-family:"Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+   font-family: 'Anaheim', sans-serif;
+   /*font-family:"Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif; */
    /*  font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, sans-serif; */
    letter-spacing:0px;
 }
@@ -34,29 +35,31 @@ kbd {
     border-width: 1px 3px 3px 1px;
 }
 
+:focus {
+outline: 0;
+}
+
 span.note {
     font-size:.8em;
     word-spacing:.1em;
 }
 
 h1, h2, h3 {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight:300;
     font-color:black;
-/*  margin: 1.3em;
-    margin-bottom: 0em; */
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
+    margin-top: .5em;
+    margin-bottom: .5em;
     color: inherit; 
 }
 
-blockquote p, strong {
+blockquote p {
    /*border-left: .2em solid #8F8AE6;
      padding-left: 0.7em;
      margin-left: 0em; */
     font-weight:300;
     color:#222;
-    font-style:italic;
     font-size:90%;
     line-height:1.3em;
 }
@@ -67,10 +70,6 @@ blockquote p, strong {
 
 #header a {
     float:left;
-}
-
-div.content {
-    font-weight:300;
 }
 
 .clickable {
@@ -95,11 +94,6 @@ a, h2 span {
     color:#8F8AE6;
 }
 
-a.index {
-    color:inherit;
-}
-
-hr {
     border-bottom:0px;
     border-top-width:1px;
     border-right:0px;
@@ -128,17 +122,20 @@ path {
     -o-transition-property: opacity .5s;
 }
 
-ul {
+.index > ul {
     list-style-type: none;
-    margin:0em;
+    margin-top:.5em;
     padding:0em;
     font-size:1em;
 }
 
+.index * {
+    text-decoration:none;
+}
+
 ol {
     font-weight:300;
-    font-size:80%;
-
+    font-size:90%;
 }
 
 sup a {
@@ -150,13 +147,13 @@ sup {
     padding-right:.3em;
 }
 
-li:hover a, a:hover  {
+li:hover a, a:hover {
     color:black;
 }
 
 li {
-
     color:#444;
+    width:100%;
 }
 
 
@@ -184,20 +181,15 @@ a {
 }
 
 code {
-    position:relative;
     display: block;
-    padding: 0em .5em 0em .5em;
-    top: -.5em;
-    font-family: arial;
-    letter-spacing:.1em;
+    font-family: courier;
+    font-size:.8em;
 }
 
 pre {
-    background:#eee;
+    padding: .5em;
     margin: 1.7em 0em 1.7em 0em;
-    box-shadow:0px 2px 4px #8B8481, 0em 0em 0.4em;
-    border:1px solid;
-    box-shadow: 0em 0em 0.4em;
+    border:1px dashed;
     width:inherit; /*necessary for vvv */
     white-space: pre-wrap; /* css-3 */
     white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
@@ -226,17 +218,18 @@ pre[title]:after {
 
 #container {
     padding:2em;
-    margin-left:30%;
-    margin-right:30%;
+    margin: 0 auto;
+    width:30em;
 }
 
-#start, #post {
+.post {
+    font-weight:300;
     margin:auto;
     opacity:1.0;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
 }
 
 @keyframes fadein {
@@ -275,10 +268,6 @@ pre[title]:after {
     }
 }
 
-#list * {
-    text-decoration:none;
-}
-
 #quote {
     font-size: 2em;
     font-weight:300;
@@ -289,4 +278,9 @@ pre[title]:after {
 
 .outer {
     position:relative;
+}
+
+#rand {
+    cursor: pointer; 
+    text-decoration: underline;
 }

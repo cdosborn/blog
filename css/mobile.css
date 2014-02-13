@@ -1,40 +1,4 @@
-div.content, #sidebar {
-    position:relative;
-    padding-right: 5%;
-    padding-left: 5%;
-    font-weight:300;
-}
-
-#sidebar {
-    transition-property: none;
-    opacity:1.0;
-    -moz-transition-property: none;
-    -webkit-transition-property: none;
-    -o-transition-property: none;
-}
-
-#portrait {
-    display:none;
-}
-
-.sidebar, #sidebar {
-    margin-left: 0em;
-}
-
-#collapse ul {
-    list-style-type: none;
-    margin:0em;
-    padding:0em;
-}
-
-#main {
-    max-width:100%;
-}
-
-#collapse ul li {
-    display:inline;
-}
-
-#profile {
-    display:none; 
+#container {
+    margin-right: 0 5%;
+    width:100%;
 }

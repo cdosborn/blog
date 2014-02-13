@@ -1,12 +1,10 @@
 ---
-layout: home
+layout: page
 ---
-<div id="list">
-<p>
+<div class="index">
 <ul>
-{% for post in site.posts limit: 6 %}
+{% for post in site.posts %}
 <li><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
-</p>
 </div>
