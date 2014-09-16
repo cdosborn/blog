@@ -11,11 +11,6 @@ html {
     background:#D6D6D6;
 }
 
-body {
-    margin:0px;
-    font-size:110%;
-}
-
 img {
     margin:auto;
     width:inherit;
@@ -104,7 +99,6 @@ a, h2 span {
 p {
     color:#555;
     font-weight:300;
-    font-size:1em;
     word-spacing:.1em;
 }
 
@@ -126,17 +120,17 @@ path {
     list-style-type: none;
     margin-top:.5em;
     padding:0em;
-    font-size:1em;
 }
 
 .index * {
     text-decoration:none;
 }
 
-ol {
+/*ol {
     font-weight:300;
-    font-size:90%;
-}
+    margin-left:2em;
+    padding:0em;
+}*/
 
 sup a {
     font-size:80%;
@@ -151,12 +145,21 @@ li:hover a, a:hover {
     color:black;
 }
 
-li {
-    color:#444;
-    width:100%;
+#nav a, #rand {
+    text-decoration:none;
+    color:#775DC3;
+}
+
+#nav a:hover, #rand:hover {
+    text-decoration:none;
+    color:#483875;
 }
 
 
+li {
+    color:#444;
+    line-height:1.5em;
+}
 
 #profile {
     width: 7.5em;
@@ -216,18 +219,28 @@ pre[title]:after {
     height:0em;
 }
 
+body {
+    margin:0px;
+    padding:0px;
+    font-size:110%;
+}
+
 #container {
-    padding:2em;
-    margin: 0 auto;
     width:30em;
+    height:100%;
+    margin: 0 auto;
+    padding-top:2em;
+    padding-bottom:2em;
+}
+
+#container * {
+    width:auto;
 }
 
 .post {
     font-weight:300;
-    margin:auto;
     opacity:1.0;
-    animation: fadein 3s;
-    -moz-animation: fadein 3s; /* Firefox */
+    animation: fadein 3s; -moz-animation: fadein 3s; /* Firefox */
     -webkit-animation: fadein 3s; /* Safari and Chrome */
     -o-animation: fadein 3s; /* Opera */
 }
@@ -282,5 +295,4 @@ pre[title]:after {
 
 #rand {
     cursor: pointer; 
-    text-decoration: underline;
 }

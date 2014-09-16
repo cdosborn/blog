@@ -1,0 +1,58 @@
+* {
+   color:#D6D6D6;
+}
+
+html {
+    background:#555;
+}
+
+blockquote p, strong {
+    color:#D6D6D6;
+}
+
+.color {
+    color:#6F6AC6;
+}
+
+time {
+    color:#999;
+}
+
+a, h2 span {
+    color:#8F8AE6;
+}
+
+p {
+    color:#D6D6D6;
+}
+
+path {
+    fill:"#8e8cc5";
+}
+
+ul {
+    list-style-type: circle;
+    size:80%;
+    padding-left:1em;
+}
+
+ol {
+    padding-left:1.4em;
+}
+
+
+li:hover a, a:hover, #rand:hover {
+    color:#F6F6F6;
+}
+
+li a, li {
+    color:#D6D6D6;
+}
+
+a {
+    color:#D6D6D6;
+}
+
+#cdosborn {
+    color:white;
+}

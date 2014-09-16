@@ -1,0 +1,34 @@
+div.vex-tabdiv {
+  top: -2em;
+  font-size: 18px;
+  color: #554;
+  white-space: pre;
+  margin: 0 auto;
+  width: 27em;
+}
+
+div.vex-tabdiv .vex-canvas {
+    color:#555;
+    padding-bottom:.5em;
+}
+
+div.vex-tabdiv .editor {
+  position:relative;
+  font-family:courier;
+  padding:1em;
+  background-color:#D6D6D6;
+  color: #555;
+  font-weight: 300;
+  font-size: .8em;
+  word-spacing: .1em;
+}
+
+div.vex-tabdiv .editor-error .text {
+  color: red;
+  padding: 3px;
+}
+
+div.vex-tabdiv .title {
+  font-size: 18px;
+  padding: 10px;
+}

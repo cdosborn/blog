@@ -1,0 +1,12 @@
+<link rel="stylesheet" type="text/css" href="/css/reverse.css">
+<script type="text/javascript" src="coquette.js"></script>
+<script type="text/javascript" src="game.js"></script>
+<script type="text/javascript">
+    window.addEventListener('load', function() {
+      new Game("canvas", 300, 144);
+    });
+</script>
+<div class="post"> 
+    {{ content }}
+    <canvas id="canvas"></canvas>
+</div>

@@ -1,0 +1,133 @@
+---
+layout: post
+title: beneath the web
+published: false
+---
+
+A month ago, I set out to understand how the internet works beneath the web. After spending some time filling in the gaps of my understanding, I found that too few articles explained the high-level concepts of the web and internet. This document is the foundation, a web primer. If bytes and servers have some association beyond a restaurant, read this more appropriate [primer](http://en.tldp.org/HOWTO//Unix-and-Internet-Fundamentals-HOWTO/internet.html).
+
+This article seeks to dissolve some of the magic surrounding the web, explain its novelty, and provide some historical context. (do this without saying your going to do it??)
+
+The web (? mark on hover) is just a service running on the internet, and the internet is the acutal infrastructure which connects computers. Simplified, the internet (interconnected network) is a connection of networks, where networks are clusters of computers. Many services operate on the internet which allow for e-mail, viewing webpages, playing multiplayer videogames, &c, between any number of connected users. 
+
+# Berners-Lee and this webpage
+
+The Web, like the Internet, is designed so as to create the desired "end to end" effect, whilst hiding to as large an extent as possible the intermediate machinery which makes it work.  If the law of the land can respect this, and be couched in an "end to end" terms, such that no government or other interference in the mechanisms is legal that would break the end to end rules, then it can continue in that way.  If not, engineers will have to learn the art of designing systems so that the end to end functionality is guaranteed whatever happens in between.  What TCP did for reliable delivery  (providing it end-to-end when the underlying network itself did not provide it) , cryptography is doing for confidentiality. Further protocols may do this for information ownership, payment, and other facets of interaction which are currently bound by geography. For the information space to be a powerful place in which to solve the problems of the next generations, its integrity, including its independence of hardware, packet route, operating system, and application software brand, is essential.  Its properties must be consistent, reliable, and fair, and the laws of our countries will have to work hand in hand with the specifications of network protocols to make that so.
+
+
+# the internet is a big deal
+Think about the prime challenges that mankind has always faced in the domains of survival, transportation, and communication. Contrast mankind in its infancy and mankind at its finality in terms of those domains. The internet allows for communication eerily close to communication's ultimate achievement. 
+
+
+    Mankind (infancy)
+    Survival       - highly unpredicatble, subject to 
+                     predators, food availability, 
+                     weather, disease, and aging (time).
+    Transportation - highly inefficient, subject to health, 
+                     distance, geography barriers, load, and time.
+    Communication  - highty inefficient, subject to woes of 
+                     transportation namely distance and time.
+    
+    Mankind (finality)
+    Survival       - no longer dependent on time, people 
+                     determine how long they wish to live.
+    Transportation - not a function of distance, load, and time, 
+                     transportation is instantaneous to 
+                     any location.
+    Communication  - distance does not matter, instantaneous 
+                     relay of information.
+
+
+
+# definitions/context
+    --Internet
+    --Web
+    --Server/Host
+    --Client
+    --URL
+    
+# the origin
+    --ARPANET
+    --Commercialization/Privatization -> Decentralization
+    --Significance
+
+# the browser
+
+The internet began as a connection between two computers. Imagine several friends share lines interconnecting their respective computers. Each line can only transmit data via a bitstream (a stream of 1's and 0's). The task of creating an (interconnected network|internetwork|internet) is akin to sending a letter without an established postal system. As such, there are numerous protocols and rules that are the definitive way to send the following message as a bitstream.
+
+    From: Connor
+    To: Kassidy
+    Message: The internet sure is great.
+
+The postal service is built such that all the difficult things are abstracted out. All a user needs is their home address, a destination address, and a message to send mail. Accordingly, a user only needs a mail adress to receive mail. When mailing, a user doesn't have to worry about the stops the letter will take on its journey, or what will happen if the mailto address doesn't even exist! Like a postal service, the internet is built on layers of abstraction for any user to accompolish what they wish. Each layer handling some level of the grunt work.
+
+# the layers
+
+Refer to the layers below retaining the analogy of the postal system. The most common is the use of http in retrieving a web-page. The http application layer then builds upon the transport layer which requires the tcp transport layer.
+
+
+> application layer: 
+Includes the highest-level processes like retrieving a webpage (HTTP), uploading a file (FTP), calling someone over the internet (VoIP). 
+
+> transport layer: 
+Determines how data needs to be transported. UDP is the suggested protocal for a time-sensitive data exchange. TCP is the protocol for delivering data that ensures its integrity.
+
+> internet layer:
+Determines how data is packaged. A single unit of data (a packet) is defined to contain a header and a payload. The most common protocol is IPv4 which simply indicates that a packet will consist of 4 bytes. Correspondingly IPv6 indicates a 6 byte packet. 
+
+> physical layer:
+Important link-layer protocols are used to probe the topology of the local network, discover routers and neighboring hosts, i.e. functions that go well beyond network access.
+
+[FT] This TCP/IP model representing the major domains. A more applicative structure is the [OSI-model](http://en.wikipedia.org/wiki/OSI_model)
+
+A voice call has different priorites than accessing a webpage. It is perfectly fine for a webpage to have some delay in loading if some of the data needs to be refetched. However, in a voice call or video streaming the priority is on time delivery potentially at the expense of quality.
+transport layer: ship the item fast, slowly to ensure safety
+internet layer: choose the packaging, large box for all, small individual
+physical layer: choose physical delivery by truck, plane, boat 
+
+
+    application layer: http/https, ftp, imap (send a package, receive a letter)
+    transport layer: tcp, udp, gdp (ship the item fast, slowly to ensure safety)
+    internet layer: IPv4, IPv6, ICMP
+    physical layer: ethernet
+
+
+
+# visiting a webpage
+
+
+
+We want to talk to the British so we sail a line across the sea. Cool now we can chat with them. An otter ate the line? Send out another (more on the incredible trans-atlantic cable attempts). Everybody wants to join so the cables undergo much needed improvements. Perhaps a user doesn't care what other people have to say and just want to speak to the world. They leave some files on their computer that they allow anybody to look at. If I know their code name I can see those files anytime I have connection to them. 
+
+[**Link to separate article, talk about the light flickering on the shore side from electrical impulses, the artists work aboart, the struggle to retrieve the link, the mind blowing weight of the cable wretching the ship as it lifted it. Everybody huddling around the electrician's room. The placement of buoys to remember where the cable fell. The Captain's reply that it would be as simple to find as sailing to a port using astronomical blah. First person accounts of buisnessmen vouching to save their investments (modern day equivalents). 
+
+
+I fell into an abyss of information regarding the laying of the trans-atlantic cable. There were a total of five attempts to lay the wire spanning 12 years. The links below include first person accounts worth checking.
+[Losing the 1865 cable](http://atlantic-cable.com/Article/Gooch/index.html)
+[Recovering the 1865 wire](http://atlantic-cable.com/Article/1866Recovery/index.htm)
+[A timeline of significant cable achievements](http://atlantic-cable.com/Cables/CableTimeLine/atlantic.htm)
+
+*Bit rates in 
+A letter N bits long: N/ 2 weeks = N / (2 * 7 * 24 * 3600) b/s
+A telegram N bits long: N/ 16 hours = N / (16 * 3600) b/s
+Optic fibre cable: 
+
+ **]
+
+
+
+
+
+
+
+
+#a young packet a great journey
+
+#
+
+Links [** learn how to place footnotes **]
+[Losing the 1865 cable](http://atlantic-cable.com/Article/Gooch/index.html)
+[Recovering the 1865 wire](http://atlantic-cable.com/Article/1866Recovery/index.htm)
+[A timeline of significant cable achievements](http://atlantic-cable.com/Cables/CableTimeLine/atlantic.htm)
+
+**TCP/IP's layers are descriptions of operating scopes (application, host-to-host, network, link) and not detailed prescriptions of operating procedures, data semantics, or networking technologies.**
