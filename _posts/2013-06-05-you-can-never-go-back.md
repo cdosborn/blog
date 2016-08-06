@@ -1,9 +1,13 @@
 ---
 title: you can never go back
+date: 2013-06-05 00:00:00 Z
+tags:
+- poetry,
+- self,
+- relection
 layout: post
-tags: poetry, self, relection
-published: true
 ---
+
 two steps forward and two steps back<br> 
 you have only retraced not restepped
 

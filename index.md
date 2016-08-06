@@ -1,6 +1,7 @@
 ---
 layout: page
 ---
+
 <div class="index">
 <ul>
 {% for post in site.posts %}

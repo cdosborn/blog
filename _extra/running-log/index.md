@@ -2,6 +2,7 @@
 title: reading-log
 layout: stream
 ---
+
 I like to keep track of things, regardless of whether or not I revisit them. It is a tangible way for me to account my history. Nonetheless, this is running log in preparation for the marathon/2 on sept. 2nd.
 
 ---

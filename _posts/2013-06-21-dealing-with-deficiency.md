@@ -1,9 +1,13 @@
 ---
 title: dealing with deficiency
+date: 2013-06-21 00:00:00 Z
+tags:
+- reflection,
+- life,
+- self
 layout: post
-tags: reflection, life, self
-published: true
 ---
+
 This is a discussion regarding what we are taught and what we discover about self-worth. My experience with public education frames my arguments. Albeit unintentional, I found it to be a major factor in my development. My intentions are that the narrow scope of my examples do not dilute the message.
 
 If you are capable of seeing yourself as invaluable, cheers so long as it is devoid of pride. I find this hard to accomplish in an existence surrounded by value judgements. Our current society is infatuated with the manipulation of self-worth.

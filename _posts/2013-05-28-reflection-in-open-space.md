@@ -1,9 +1,13 @@
 ---
 title: reflection in open space
+date: 2013-05-28 00:00:00 Z
+tags:
+- reflection,
+- life,
+- self
 layout: post
-tags: reflection, life, self
-published: true
 ---
+
 Today I logged too many hours on my computer. I began programming the night before and I lacked the restraint to go to bed at a decent hour, which carried over to today also. I spent all of today staring into the flickering screen. It was fun, albeit short-lived with the issuance of a headache. After reaching a point of resolution, I left my room for some solace.
 
 It appealed to me to head to a commons in a library nearby. I sat in a corner beside a fireplace mounted in glass. As I sat in a mildly populated space, I felt a strange pleasure. I did not immediately understand the source, and became pensive. I was engaging, if not passively, in the company of others in a unique way.

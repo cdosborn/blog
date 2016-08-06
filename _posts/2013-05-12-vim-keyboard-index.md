@@ -1,8 +1,10 @@
 ---
-layout: page
 title: vim keyboard index
+date: 2013-05-12 00:00:00 Z
 published: false
+layout: page
 ---
+
 ##newb <span class="close clickable">-</span>
 
 <kbd>h k j l</kbd> <span class="note">Think of the j as a downward hook.</span>

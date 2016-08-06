@@ -1,7 +1,7 @@
 ---
 title: min
-layout: min-coq
 published: false
+layout: min-coq
 ---
 
 Press the up arrow key.

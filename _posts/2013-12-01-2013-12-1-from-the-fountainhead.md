@@ -1,8 +1,9 @@
 ---
 title: from the fountainhead
+date: 2013-12-01 00:00:00 Z
+tags:
+- literature
 layout: post
-tags: literature
-published: true 
 ---
 
 Ayn Rand is not popular. If you disagree with her work for reasons of your *own* conscience, it is not in vain. Nevertheless, these are the quotes that struck me. 

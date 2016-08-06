@@ -1,8 +1,12 @@
 ---
 title: to sit in mother's lap
-layout: post
-tags: reflection, life, self
+date: 2013-07-02 00:00:00 Z
 published: false
+tags:
+- reflection,
+- life,
+- self
+layout: post
 ---
 
 Mother is strong but her strength is faltering. She bore children who no longer bear her memory, and she weeps for those she used to cradle.

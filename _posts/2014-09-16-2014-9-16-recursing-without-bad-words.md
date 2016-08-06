@@ -1,8 +1,9 @@
 ---
-title: (re)cursing without bad words
+title: "(re)cursing without bad words"
+date: 2014-09-16 00:00:00 Z
+tags:
+- codez
 layout: post
-tags: codez
-published: true 
 ---
 
 Recursion is just another way to iterate that provides some behaviour difficult to simulate with traditional iteration (for/while). Both for loops and recursion operate on the principle of changing state until a condition is satisfied, Recursion simply operates in a different domain utilizing function calls and the underlying stack to control the order of execution. In order to understand how recursion works, it's imperative to understand how information is communicated during function calls. When approaching recursion, it's useful to rethink common language constructs in the following way:

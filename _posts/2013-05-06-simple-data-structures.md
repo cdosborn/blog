@@ -1,8 +1,11 @@
 ---
 title: simple data structures
-layout: post
-tags: computer-science, javascript
+date: 2013-05-06 00:00:00 Z
 published: false
+tags:
+- computer-science,
+- javascript
+layout: post
 ---
 
 The purpose of this post is not to be an over-simplification, but rather a quick clean summary. Code examples in JavaScript should bring it back down to earth. Every data structure stores data in a unique way, which affects the retrieval and insertion of data. This post is a summary of my take aways from an introductory programming course at the University of Washington. 

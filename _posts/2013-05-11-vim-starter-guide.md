@@ -1,7 +1,8 @@
 ---
-title : vim starter guide
-layout: post
+title: vim starter guide
+date: 2013-05-11 00:00:00 Z
 published: false
+layout: post
 ---
 
 #FIX BROKEN LINKS

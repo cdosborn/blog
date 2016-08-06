@@ -1,7 +1,8 @@
 ---
 title: Calm Down by Revolver Tablature
-layout: guitarpost
+date: 2014-04-15 00:00:00 Z
 published: false
+layout: guitarpost
 ---
 
 Send feedback and flaming criticism to cdosborn[at]uw.edu.
